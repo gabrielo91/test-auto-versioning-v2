@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
+    "auto": "auto",
     "release": "auto shipit",
     "test": "jest"
   },
@@ -21,5 +23,11 @@
   "devDependencies": {
     "auto": "^9.61.0",
     "jest": "^26.6.1"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
