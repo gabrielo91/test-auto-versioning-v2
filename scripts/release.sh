@@ -1,4 +1,5 @@
 export PATH=$(npm bin):$PATH
+export GH_TOKEN=$GITHUB_TOKEN
 
 VERSION=`auto version`
 
