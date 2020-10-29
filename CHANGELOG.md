@@ -1,3 +1,18 @@
+# v1.0.4 (Thu Oct 29 2020)
+
+#### 🐛 Bug Fix
+
+- change [#9](https://github.com/gabrielo91/test-auto-versioning-v2/pull/9) ([@gabrielo91](https://github.com/gabrielo91))
+- another one [#8](https://github.com/gabrielo91/test-auto-versioning-v2/pull/8) ([@gabrielo91](https://github.com/gabrielo91))
+- other try [#7](https://github.com/gabrielo91/test-auto-versioning-v2/pull/7) ([@gabrielo91](https://github.com/gabrielo91))
+- another try [#6](https://github.com/gabrielo91/test-auto-versioning-v2/pull/6) ([@gabrielo91](https://github.com/gabrielo91))
+
+#### Authors: 1
+
+- Gabriel Ortega Rosero ([@gabrielo91](https://github.com/gabrielo91))
+
+---
+
 # v1.0.3 (Thu Oct 29 2020)
 
 #### 🐛 Bug Fix
