@@ -23,11 +23,5 @@
   "devDependencies": {
     "auto": "^9.61.0",
     "jest": "^26.6.1"
-  },
-  "auto": {
-    "plugins": [
-      "npm"
-    ],
-    "onlyPublishWithReleaseLabel": true
   }
 }
