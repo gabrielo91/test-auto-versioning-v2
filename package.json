@@ -1,0 +1,25 @@
+{
+  "name": "test-auto-versioning-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "auto shipit",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielo91/test-auto-versioning-v2.git"
+  },
+  "keywords": [],
+  "author": "Gabriel <gabrielo_9103@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielo91/test-auto-versioning-v2/issues"
+  },
+  "homepage": "https://github.com/gabrielo91/test-auto-versioning-v2#readme",
+  "devDependencies": {
+    "auto": "^9.61.0",
+    "jest": "^26.6.1"
+  }
+}
