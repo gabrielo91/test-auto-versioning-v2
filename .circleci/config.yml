@@ -22,7 +22,6 @@ jobs:
       - node/install-packages:
           with-cache: false
       - run: echo 'Executing ci'
-      - run: chmod +x scripts/release.sh
       - run:
           name: 'Create release'
           command: GH_TOKEN=$GITHUB_TOKEN npm run release
