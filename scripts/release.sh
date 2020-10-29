@@ -9,6 +9,7 @@ if [ ! -z "$VERSION" ]; then
 
   ## Publish Package
   npm version $VERSION -m "Bump version to: %s"
+  npm publish
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin $branch
