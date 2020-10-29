@@ -11,7 +11,8 @@ echo $GITHUB_TOKEN
 if [ ! -z "$VERSION" ]; then
   ## Update Changelog
   auto changelog
-
+  git config user.email "gabrielo_9103@hotmail.com"
+  git config user.name "Gabriel"
   ssh -T git@github.com
 
   ## Publish Package
