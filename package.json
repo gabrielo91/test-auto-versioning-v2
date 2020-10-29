@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "auto": "auto",
-    "release": "auto shipit --message 'UPDATE CHANGELOG.md'",
+    "release2": "auto shipit --message 'UPDATE CHANGELOG.md'",
+    "release": "./scripts/release.sh",
     "test": "jest"
   },
   "repository": {
