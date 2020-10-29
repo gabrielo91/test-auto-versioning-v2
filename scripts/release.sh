@@ -8,7 +8,7 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
 
   ## Publish Package
-  npm version $VERSION -m "Bump version to: %s"
+  npm version $VERSION -m --force "Bump version to: %s"
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin $branch
