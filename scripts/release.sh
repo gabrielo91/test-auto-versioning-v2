@@ -19,6 +19,7 @@ if [ ! -z "$VERSION" ]; then
   npm version $VERSION -m --force "Bump version to: %s"
 
   ## Create GitHub Release
-  git push --follow-tags --set-upstream origin $branch
+
+  GH_TOKEN=$GITHUB_TOKEN git push --follow-tags --set-upstream origin $branch
   auto release
 fi
