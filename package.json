@@ -6,8 +6,11 @@
   "private": true,
   "scripts": {
     "auto": "auto",
+    "version": "npm version `auto version` -m 'Bump version to: %s'",
+    "publish": "git push --follow-tags --set-upstream origin $branch",
+    "release": "auto changelog && npm run version && npm run publish && auto release",
     "release2": "auto shipit --message 'UPDATE CHANGELOG.md'",
-    "release": "./scripts/release.sh",
+    "release3": "./scripts/release.sh",
     "test": "jest"
   },
   "repository": {
