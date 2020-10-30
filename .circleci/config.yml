@@ -14,6 +14,10 @@ workflows:
       - build:
           context:
             - develop
+          filters:
+            tags:
+              only: /^v.*/
+          
 jobs:
   build:
     executor: releaser
