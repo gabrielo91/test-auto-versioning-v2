@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "auto": "auto",
-    "release": "auto shipit",
+    "release": "auto shipit --no-changelog",
     "test": "jest"
   },
   "repository": {
