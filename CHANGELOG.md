@@ -1,3 +1,19 @@
+# v1.0.6 (Fri Oct 30 2020)
+
+#### 🐛 Bug Fix
+
+- changed [#27](https://github.com/gabrielo91/test-auto-versioning-v2/pull/27) ([@gabrielo91](https://github.com/gabrielo91))
+
+#### ⚠️ Pushed to `master`
+
+- a change ([@gabrielo91](https://github.com/gabrielo91))
+
+#### Authors: 1
+
+- Gabriel Ortega Rosero ([@gabrielo91](https://github.com/gabrielo91))
+
+---
+
 # v1.0.5 (Fri Oct 30 2020)
 
 #### 🐛 Bug Fix
