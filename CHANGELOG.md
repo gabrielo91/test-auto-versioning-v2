@@ -1,3 +1,15 @@
+# v1.0.7 (Fri Oct 30 2020)
+
+#### 🐛 Bug Fix
+
+- test tag [#28](https://github.com/gabrielo91/test-auto-versioning-v2/pull/28) ([@gabrielo91](https://github.com/gabrielo91))
+
+#### Authors: 1
+
+- Gabriel Ortega Rosero ([@gabrielo91](https://github.com/gabrielo91))
+
+---
+
 # v1.0.6 (Fri Oct 30 2020)
 
 #### 🐛 Bug Fix
