@@ -15,10 +15,11 @@ workflows:
           context:
             - develop
           filters:
-            branches:
-              only: ['master', 'develop']
             tags:
               only: /^v.*/
+            branches:
+              only:
+                - /.*/
           
 jobs:
   build:
